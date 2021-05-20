@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030">
+
+    <ImageButton
+        android:src="@drawable/btn_off"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/btnOn"
+        android:layout_marginTop="179.5dp"
+        android:layout_marginBottom="194.5dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:scaleType="centerInside"
+        android:background="#303030"
+        android:clickable="true" 
+     />
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sens"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:layout_marginTop="550.0dp"
+        android:layout_marginBottom="29.5dp"
+        android:min="1"
+        android:tooltipText="Sensibilidad del gesto"
+        android:progressTint="#fffff59d"
+        android:progressBackgroundTint="#ffffee58"
+        android:thumbTint="#fffffde7" />
+    <TextView
+        android:text="Sensibilidad"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="521.5dp"
+        android:layout_marginBottom="64.5dp"
+        android:layout_marginLeft="10.5dp"
+        android:id="@+id/textSens"
+        android:elegantTextHeight="true"
+        android:foregroundGravity="bottom"/>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
